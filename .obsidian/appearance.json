@@ -1,0 +1,32 @@
+{
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "alternatethemes",
+    "icons",
+    "fonts",
+    "supercharged-links-gen",
+    "FantasyFonts",
+    "fixcli",
+    "calloutsextend",
+    "metabindadjust",
+    "rift",
+    "roglianoultrabold",
+    "zatannamisdirection",
+    "sneakerpromedium",
+    "providencesansbold",
+    "booksanity",
+    "dnd5e-compendium",
+    "HoverProperties_w-Columns",
+    "font-armarante",
+    "fontawesome.min",
+    "v5-font-face.min",
+    "all.min",
+    "regular.min",
+    "solid.min",
+    "brands.min",
+    "base64fonts",
+    "datacore"
+  ],
+  "accentColor": "#860909"
+}

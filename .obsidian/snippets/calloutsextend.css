@@ -1,0 +1,4 @@
+:not(.is-live-preview) .callout.callout.callout:is([data-callout-metadata~="p+l"],
+[data-callout-metadata~=wide1]) {
+    max-width: 400px!important;
+}

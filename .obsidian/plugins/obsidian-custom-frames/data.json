@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+      "url": "https://5e.tools",
+      "displayName": "5e.tools",
+      "icon": "book-open-text",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "http://localhost:30000",
+      "displayName": "Foundry",
+      "icon": "anvil",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

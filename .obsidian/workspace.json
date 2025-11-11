@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "7a56c8c279bed885",
+    "type": "split",
+    "children": [
+      {
+        "id": "d16e71d44af8bdef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6288d5b0c1943fc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "06938d9b7064907b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b291080207132a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61457e78f3638a84",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "edd7539c198dedcc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "customizing-your-",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "675999185919f2ed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 335.5
+  },
+  "right": {
+    "id": "755ec6653c095cd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "80a4fb3856b56b44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c262876bf3a986f9",
+            "type": "leaf",
+            "state": {
+              "type": "MAIN_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "MAIN_VIEW"
+            }
+          },
+          {
+            "id": "5c5cf30a0795df03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0-Scratch/Datacore1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Datacore1"
+            }
+          },
+          {
+            "id": "4eadbadd25c87851",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0-Scratch/Datacore1.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Datacore1"
+            }
+          },
+          {
+            "id": "74f6300c33c02cb0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0-Scratch/Datacore1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Datacore1"
+            }
+          },
+          {
+            "id": "c7eac4e8a9fd37ac",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
+            }
+          },
+          {
+            "id": "7d82ae3ff192bbb1",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "initiative-tracker-view"
+            }
+          },
+          {
+            "id": "113f6bac489b8bae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cea24ea4aaedf0fb",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "453801951e3094db",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 434.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-custom-frames:Open 5e.tools": false,
+      "obsidian-custom-frames:Open Foundry": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "quartz-syncer:Quartz Syncer publication center": false
+    }
+  },
+  "active": "61457e78f3638a84",
+  "lastOpenFiles": [
+    "03-campaigns/The Adventurer's Guild/3-Worlds/The World of Aedryl/Places/The World of Aedryl.md",
+    "04-compendium/README.MD",
+    "0-Quick Refs/Roll For Traps 5e.md",
+    "0-Quick Refs/ObsTTRPGDocLinks.md",
+    "0-Quick Refs/Generators.md",
+    "0-Quick Refs/DH Complications.md",
+    "4-Compendium/NPCs/The World of Aedryl/Constano Santiago Luiz De Gorriones y Amarriano.md",
+    "0-DM Screen/Dashboard.md",
+    "7-Bases/Races.md",
+    "7-Bases/Test  Bases.md",
+    "0-DM Screen/Spell Finder.md",
+    "0-DM Screen/Travel Calc.md",
+    "0-Scratch/Abjurer 24E.md",
+    "zz-nexus/Templates/04-World Building Templates/TemplateNPC.md",
+    "zz-nexus/DBtables/DBs/Person.md",
+    "zz-nexus/DBtables/DBs/Player.md",
+    "zz-nexus/DBtables/DBs/Relationships.md",
+    "zz-nexus/Templates/04-World Building Templates/TemplateMagicItem.md",
+    "4-Compendium/Items/NewMagicItem.md",
+    "4-Compendium/Items/TEST.md",
+    "3-Session Journal/Pearl of the East",
+    "3-Session Journal/Pearl of the East/NewJournal.md",
+    "2-Worlds/The World of Aedryl/Factions/NewGroup.md",
+    "0-Scratch/Datacore2.md",
+    "0-Scratch/Datacore1.md",
+    "zz-nexus/Attachments/arzon.png",
+    "1-Parties/The Adventurer's Guild/Characters/Arzon.md",
+    "zz-nexus/Scripts/datacore/components/ImagePicker.jsx",
+    "zz-nexus/Scripts/datacore/components/FilePicker.jsx",
+    "zz-nexus/Scripts/datacore/forms/PlayerInfoBox.jsx",
+    "zz-nexus/Scripts/datacore/forms",
+    "zz-nexus/Scripts/datacore/components/FileListSuggester.jsx",
+    "zz-nexus/Scripts/datacore/components/ListSuggesterAdd copy.jsx",
+    "zz-nexus/Scripts/datacore/components/ListSuggesterAdd.jsx",
+    "zz-nexus/Scripts/datacore/components/ListSuggesterBase.jsx",
+    "zz-nexus/Scripts/datacore/utils/shared.js",
+    "zz-nexus/Attachments/Untitled Bracket 1.png",
+    "zz-nexus/Attachments/Untitled Bracket.png",
+    "zz-nexus/Attachments/ComfyUI_00034_.png",
+    "5-Mechanics/CLI/5E/compendium/items/img/potion-of-climbing.webp",
+    "5-Mechanics/CLI/5E/compendium/items/img/potion-of-storm-giant-strength.webp",
+    "5-Mechanics/CLI/5E/compendium/adventures/terminal-excrescence/img/wel-terminal-excrescence-2-gm-nogrid_70pps.webp",
+    "5-Mechanics/CLI/5E/compendium/items/img/potion-of-vitality.webp",
+    "5-Mechanics/CLI/5E/compendium/adventures/terminal-excrescence/img/wel-terminal-excrescence-2-player-nogrid_70pps.webp",
+    "5-Mechanics/CLI/5E/compendium/items/img/potion-of-healing.webp",
+    "Untitled.canvas",
+    "6-Drawings/Untitled.canvas"
+  ]
+}

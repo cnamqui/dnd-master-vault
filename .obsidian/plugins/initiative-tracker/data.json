@@ -1,0 +1,804 @@
+{
+  "players": [
+    {
+      "note": "Arzon",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Arzon.md",
+      "name": "Arzon",
+      "ac": 15,
+      "hp": 61,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Hurrk",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Hurrk.md",
+      "name": "Hurrk",
+      "ac": 19,
+      "hp": 51,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Kenpachi",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Kenpachi.md",
+      "name": "Kenpachi",
+      "ac": 16,
+      "hp": 45,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Jezebel",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Jezebel.md",
+      "name": "Jezebel",
+      "ac": 14,
+      "hp": 39,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Kaden",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Kaden.md",
+      "name": "Kaden",
+      "ac": 1,
+      "hp": 1,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Mr Wick",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Mr Wick.md",
+      "name": "Mr Wick",
+      "ac": 18,
+      "hp": 52,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Orik",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Orik.md",
+      "name": "Orik",
+      "ac": 14,
+      "hp": 51,
+      "level": 6,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Ashira",
+      "path": "1-Parties/The Adventurer's Guild/Characters/Ashira.md",
+      "name": "Ashira",
+      "ac": 1,
+      "hp": 1,
+      "level": "6",
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Vizio",
+      "path": "1-Parties/Shadows Of Etherium/Characters/Vizio.md",
+      "name": "Vizio",
+      "ac": 1,
+      "hp": 1,
+      "level": 9,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "BF Stoutwallet",
+      "path": "1-Parties/Shadows Of Etherium/Characters/BF Stoutwallet.md",
+      "name": "BF Stoutwallet",
+      "ac": 1,
+      "hp": 1,
+      "level": 9,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Jackson Liefsson",
+      "path": "1-Parties/Shadows Of Etherium/Characters/Jackson Liefsson.md",
+      "name": "Jackson Liefsson",
+      "ac": 1,
+      "hp": 1,
+      "level": 9,
+      "modifier": 1,
+      "player": true
+    }
+  ],
+  "parties": [
+    {
+      "name": "CGRA",
+      "players": [
+        "Arzon",
+        "Hurrk",
+        "Kenpachi",
+        "Jezebel",
+        "Kaden",
+        "Mr Wick",
+        "Orik",
+        "Ashira"
+      ]
+    },
+    {
+      "name": "SoE",
+      "players": [
+        "Jackson Liefsson",
+        "BF Stoutwallet",
+        "Vizio"
+      ]
+    }
+  ],
+  "defaultParty": "CGRA",
+  "statuses": [
+    {
+      "name": "Blinded",
+      "id": "Blinded",
+      "description": "A blinded creature can’t see and automatically fails any ability check that requires sight.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage."
+    },
+    {
+      "name": "Charmed",
+      "id": "Charmed",
+      "description": "A charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or magical Effects.\nThe charmer has advantage on any ability check to interact socially with the creature."
+    },
+    {
+      "name": "Concentrating",
+      "id": "Concentrating",
+      "description": "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\nA creature loses concentration when: it casts another spell that requires concentration, is incapacitated, or dies.\nWhen a creature takes damage, it must make a constitution saving throw with a DC of 10 or half the damage it took, whichever is higher. On a failure, concentration is lost."
+    },
+    {
+      "name": "Deafened",
+      "id": "Deafened",
+      "description": "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "name": "Frightened",
+      "id": "Frightened",
+      "description": "A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.\nThe creature can’t willingly move closer to the source of its fear."
+    },
+    {
+      "name": "Grappled",
+      "id": "Grappled",
+      "description": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the Grappler is incapacitated.\nThe condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell."
+    },
+    {
+      "name": "Incapacitated",
+      "id": "Incapacitated",
+      "description": "An incapacitated creature can’t take Actions or Reactions."
+    },
+    {
+      "name": "Invisible",
+      "id": "Invisible",
+      "description": "An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.\nAttack rolls against the creature have disadvantage, and the creature’s Attack rolls have advantage."
+    },
+    {
+      "name": "Paralyzed",
+      "id": "Paralyzed",
+      "description": "A paralyzed creature is incapacitated and can’t move or speak.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    },
+    {
+      "name": "Petrified",
+      "id": "Petrified",
+      "description": "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\nThe creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nAttack rolls against the creature have advantage.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nThe creature has Resistance to all damage.\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+    },
+    {
+      "name": "Poisoned",
+      "id": "Poisoned",
+      "description": "A poisoned creature has disadvantage on Attack rolls and Ability Checks."
+    },
+    {
+      "name": "Prone",
+      "id": "Prone",
+      "description": "A prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.\nThe creature has disadvantage on Attack rolls.\nAn Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage."
+    },
+    {
+      "name": "Reacted",
+      "id": "Reacted",
+      "description": "A creature, unless otherwise specified, gets one reaction per round of combat.\nA reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s.\nA reaction can be spent to make an opportunity attack, do a readied action, or use an ability that requires a reaction.\nA creature that has already reacted cannot use a reaction until the start of its turn."
+    },
+    {
+      "name": "Restrained",
+      "id": "Restrained",
+      "description": "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.\nThe creature has disadvantage on Dexterity Saving Throws."
+    },
+    {
+      "name": "Stunned",
+      "id": "Stunned",
+      "description": "A stunned creature is incapacitated, can’t move, and can speak only falteringly.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage."
+    },
+    {
+      "name": "Unconscious",
+      "id": "Unconscious",
+      "description": "An unconscious creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    }
+  ],
+  "unconsciousId": "Unconscious",
+  "version": [
+    13,
+    0,
+    18
+  ],
+  "canUseDiceRoll": false,
+  "preferStatblockLink": true,
+  "initiative": "1d20 + %mod%",
+  "modifier": null,
+  "sync": true,
+  "playerMarker": "default",
+  "monsterMarker": "default",
+  "state": {
+    "creatures": [
+      {
+        "name": "Shark",
+        "initiative": 15,
+        "static": false,
+        "modifier": 0,
+        "hp": 7,
+        "currentMaxHP": 7,
+        "ac": 14,
+        "currentAC": 14,
+        "path": "5-Mechanics/CLI/DaggerHeart/adversaries/Shark.md",
+        "id": "ID_580919699bb8",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
+      }
+    ],
+    "state": false,
+    "name": "Encounter",
+    "round": 1,
+    "logFile": "",
+    "rollHP": false
+  },
+  "condense": true,
+  "clamp": true,
+  "autoStatus": true,
+  "beginnerTips": true,
+  "displayDifficulty": true,
+  "encounters": {
+    "Birds Of A Feather 2": {
+      "creatures": [
+        {
+          "name": "Arzon",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 12,
+          "currentMaxHP": 12,
+          "ac": "15",
+          "currentAC": "15",
+          "note": "Arzon",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Arzon.md",
+          "id": "ID_89e9ea7a8a8b",
+          "currentHP": 12,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Hurrk",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Hurrk",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Hurrk.md",
+          "id": "ID_4a9809e92a48",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Kenpachi",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Kenpachi",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Kenpachi.md",
+          "id": "ID_090af8091ad9",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Jezebel",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Jezebel",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Jezebel.md",
+          "id": "ID_891949383b9a",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Kaden",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Kaden",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Kaden.md",
+          "id": "ID_6ac8291b6b99",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Mr Wick",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Mr Wick",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Mr Wick.md",
+          "id": "ID_d98869ca999b",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Orik",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Orik",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Orik.md",
+          "id": "ID_c90bd9980ba9",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Ashira",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 1,
+          "currentMaxHP": 1,
+          "ac": 1,
+          "currentAC": 1,
+          "note": "Ashira",
+          "path": "1-Parties/The Adventurer's Guild/Characters/Ashira.md",
+          "id": "ID_4ac9381ab948",
+          "currentHP": 1,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": 6,
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Bandit Captain",
+          "initiative": 0,
+          "static": false,
+          "modifier": 3,
+          "hp": 65,
+          "currentMaxHP": 65,
+          "cr": "2",
+          "ac": 15,
+          "currentAC": 15,
+          "path": "5-Mechanics/CLI/5E/compendium/bestiary/humanoid/bandit-captain.md",
+          "id": "ID_3a7a893ae999",
+          "currentHP": 65,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "10d8 + 20"
+        },
+        {
+          "name": "Bandit Captain",
+          "initiative": 0,
+          "static": false,
+          "modifier": 3,
+          "hp": 65,
+          "currentMaxHP": 65,
+          "cr": "2",
+          "ac": 15,
+          "currentAC": 15,
+          "path": "5-Mechanics/CLI/5E/compendium/bestiary/humanoid/bandit-captain.md",
+          "id": "ID_abaa792b2918",
+          "currentHP": 65,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "10d8 + 20"
+        },
+        {
+          "name": "Arcana Priest (OCLD)",
+          "initiative": 0,
+          "static": false,
+          "modifier": 2,
+          "hp": 36,
+          "currentMaxHP": 36,
+          "cr": "2",
+          "ac": 12,
+          "currentAC": 12,
+          "path": "5-Mechanics/CLI/5E/compendium/bestiary/humanoid/arcana-priest-ocld.md",
+          "id": "ID_1b79d9db0acb",
+          "currentHP": 36,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "8d8"
+        },
+        {
+          "name": "Moon Druid (OCLD)",
+          "initiative": 0,
+          "static": false,
+          "modifier": 2,
+          "hp": 132,
+          "currentMaxHP": 132,
+          "cr": "12",
+          "ac": 16,
+          "currentAC": 16,
+          "path": "5-Mechanics/CLI/5E/compendium/bestiary/humanoid/moon-druid-ocld.md",
+          "id": "ID_5be86b4bfbe9",
+          "currentHP": 132,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "24d8 + 24"
+        }
+      ],
+      "state": false,
+      "name": "Birds Of A Feather 2",
+      "round": 1,
+      "roll": true,
+      "rollHP": false,
+      "logFile": null,
+      "timestamp": 1755319825680
+    }
+  },
+  "warnedAboutImports": false,
+  "openState": {
+    "battle": true,
+    "party": true,
+    "status": true,
+    "plugin": true,
+    "player": true,
+    "builder": true
+  },
+  "hpOverflow": "ignore",
+  "additiveTemp": false,
+  "rpgSystem": "dnd5e-lazygm",
+  "logging": false,
+  "logFolder": "/",
+  "resolveTies": "playerFirst",
+  "useLegacy": false,
+  "diplayPlayerHPValues": true,
+  "rollHP": false,
+  "descending": true,
+  "builder": {
+    "showParty": false,
+    "showXP": false,
+    "sidebarIcon": true,
+    "headers": [
+      {
+        "text": "CR",
+        "field": "cr",
+        "type": 1
+      },
+      {
+        "text": "Type",
+        "field": "type",
+        "type": 0
+      },
+      {
+        "text": "Size",
+        "field": "size",
+        "type": 0
+      },
+      {
+        "text": "Alignment",
+        "field": "alignment",
+        "type": 0
+      }
+    ],
+    "filters": {
+      "filters": [
+        {
+          "type": 2,
+          "text": "Size",
+          "fields": [
+            "size"
+          ],
+          "options": [
+            "medium",
+            "huge",
+            "large",
+            "small or medium",
+            "gargantuan",
+            "tiny",
+            "small",
+            "unknown"
+          ],
+          "id": "ID_DEFAULT_SIZE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Type",
+          "fields": [
+            "type"
+          ],
+          "options": [
+            "humanoid",
+            "undead",
+            "solo",
+            "traversal",
+            "aberration",
+            "beast",
+            "celestial",
+            "construct",
+            "elemental",
+            "fey",
+            "fiend",
+            "giant",
+            "spirit",
+            "minion",
+            "leader",
+            "ranged",
+            "horde",
+            "skulk",
+            "bruiser",
+            "standard",
+            "social",
+            "support",
+            "spirits",
+            "goblinoid",
+            "monstrosity",
+            "dragon",
+            "ooze",
+            "plant"
+          ],
+          "id": "ID_DEFAULT_TYPE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Alignment",
+          "fields": [
+            "alignment"
+          ],
+          "options": [
+            "any non-chaotic alignment",
+            "ce",
+            "neutral evil",
+            "chaotic evil",
+            "unaligned",
+            "lawful good",
+            "neutral",
+            "neutral good",
+            "lawful evil",
+            "chaotic neutral",
+            "typically  neutral",
+            "chaotic good",
+            "any alignment",
+            "typically  chaotic evil",
+            "lawful neutral",
+            "typically  lawful evil",
+            "any non-lawful alignment",
+            "typically  neutral evil",
+            "typically  chaotic neutral",
+            "typically  lawful good",
+            "any good alignment",
+            "typically  neutral good",
+            "unknown",
+            "typically  chaotic good",
+            "typically  neutral good or neutral evil",
+            "neutral good or neutral evil",
+            "typically  lawful neutral",
+            "any non-good alignment",
+            "chaotic good or neutral evil",
+            "typically lawful evil",
+            "typically  any evil alignment",
+            "any evil alignment",
+            "chaotic evil or chaotic good",
+            "any chaotic alignment",
+            "typically chaotic evil",
+            "any alignment (as its deity)",
+            "typically  neutral (any)",
+            "chaotic evil or chaotic neutral",
+            "chaotic good (chaotic evil when fully possessed)",
+            "lawful evil or lawful neutral",
+            "lawful grumpy",
+            "chaotic evil or neutral evil",
+            "as the eidolon's alignment",
+            "neutral oozy",
+            "chaotic sticky",
+            "typically  unknown",
+            "typically  any non-evil alignment",
+            "chaotic silly",
+            "any non-evil alignment",
+            "any alignment (as its creator deity)",
+            "unknown (usually evil)",
+            "typically  any non-chaotic alignment"
+          ],
+          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+          "derive": true
+        },
+        {
+          "type": 1,
+          "text": "Name",
+          "fields": [
+            "name"
+          ],
+          "options": [],
+          "id": "ID_DEFAULT_NAME_FILTER",
+          "derive": false
+        },
+        {
+          "type": 1,
+          "fields": [],
+          "text": "New Filter",
+          "options": [],
+          "id": "ID_ab0bb8db99b8",
+          "derive": false
+        },
+        {
+          "type": 0,
+          "text": "CR",
+          "fields": [
+            "cr"
+          ],
+          "options": [
+            0,
+            30
+          ],
+          "id": "ID_DEFAULT_CR_FILTER",
+          "derive": true
+        },
+        {
+          "type": 1,
+          "fields": [
+            "system"
+          ],
+          "text": "TEST",
+          "options": [],
+          "id": "ID_f91bbbd97b5b",
+          "derive": false
+        }
+      ],
+      "layout": [
+        {
+          "nested": [
+            {
+              "id": "ID_DEFAULT_CR_FILTER",
+              "type": "filter"
+            }
+          ],
+          "id": "ID_DEFAULT_NESTED_CR",
+          "type": "nested"
+        },
+        {
+          "id": "ID_DEFAULT_NESTED_LAYOUT",
+          "type": "nested",
+          "nested": [
+            {
+              "id": "ID_DEFAULT_SIZE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_TYPE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+              "type": "filter"
+            }
+          ]
+        },
+        {
+          "type": "nested",
+          "id": "ID_cb6b09180a38",
+          "nested": []
+        },
+        {
+          "type": "nested",
+          "id": "ID_7929a98819c8",
+          "nested": [
+            {
+              "type": "filter",
+              "id": "ID_f91bbbd97b5b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rollPlayerInitiatives": 2
+}

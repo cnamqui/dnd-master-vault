@@ -1,6 +1,9 @@
-/04-Compendium
-/02-Workshop
-/03-Campaigns
+
+/02-Workshop/*
+/03-Campaigns/*
+/04-Compendium/*
 
 
-!/02-Workshop/README.md
+!/02-Workshop/README.md 
+!/03-Campaigns/README.md 
+!/04-Compendium/README.md 

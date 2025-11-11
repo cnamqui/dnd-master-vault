@@ -1,0 +1,19 @@
+{
+  "saveWindowLocations": true,
+  "useCustomWindowName": false,
+  "customWindowName": "Second Window",
+  "windows": {
+    "Second Window": {
+      "hosts": {
+        "Drizzly": {
+          "x": 559,
+          "y": 53,
+          "width": 562,
+          "height": 968,
+          "fullscreen": false,
+          "maximized": false
+        }
+      }
+    }
+  }
+}

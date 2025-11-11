@@ -1,0 +1,63 @@
+.markdown-rendered img:is([alt~=right], [alt~=locr]),
+.markdown-rendered img:is([src*="#right"], [src*="#locr"]),
+.markdown-rendered .image-embed:is([alt~=right], [alt~=locr]),
+.markdown-rendered .image-embed:is([src*="#right"], [src*="#locr"]) {
+    max-width: 50% !important;
+}
+
+.statblock-ul {
+    list-style-type: disc;
+    display: list-item;
+    margin-left: 20px;
+}
+
+.daggerheart-card,
+.daggerheart-adversary {
+    .statblock-content-container {
+        .statblock-item-container.heading-container {
+
+            h1:after,
+            h1 statblock-rendered-text-content:after {
+                display: none !important
+            }
+        }
+    }
+}
+
+.markdown-embed {
+    .daggerheart-card-ribbon {
+        margin-bottom: 0 !important;
+    }
+}
+
+.icon-btn {
+    cursor: pointer;
+    padding: 0px 5px;
+
+    ::before {
+        padding: 0px 5px !important;
+
+    }
+}
+
+.itm-btn-remove.itm-btn-remove.itm-btn-remove {
+    button {
+        /* background: no-repeat; 
+        background: var(--bttn);
+        padding: 5px;
+        border-radius: 10px;
+        color: var(--text-dl);
+        right: 10px;
+        position: absolute;
+        top: -5px; */
+    }
+}
+.itm-note {
+    textarea {
+            height: 100px
+        }
+} 
+
+.dataview.inline-field-key {
+    display: none
+}

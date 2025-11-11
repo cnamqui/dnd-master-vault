@@ -1,0 +1,144 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "groupSelector",
+      "declaration": "INPUT[inlineListSuggester(optionQuery(#Category/Group AND !\"zz-nexus/Templates\"))]"
+    },
+    {
+      "name": "locationSelector",
+      "declaration": "INPUT[inlineListSuggester(optionQuery(#Category/Location AND !\"zz-nexus/Templates\"))]"
+    },
+    {
+      "name": "languages",
+      "declaration": "INPUT[inlineListSuggester(option(Common), option(Common Sign Language), option(Draconic), option(Dwarvish), option(Elvish), option(Giant), option(Gnomish), option(Goblin), option(Halfling), option(Orc), option(Abyssal), option(Celestial), option(Deep Speech), option(Druidic), option(Infernal), option(Primordial - Auran), option(Primordial - Aqua), option(Primordial - Ignan), option(Primordial - Terran), option(Sylvan), option(Thieves Cant), option(Undercommon))]"
+    },
+    {
+      "name": "relType",
+      "declaration": "INPUT[suggester(option(Sibling), option(Parent), option(Child), option(Spouse), option(Lover), option(Friend), option(Rival), option(Mentor), option(Apprentice), option(Ally), option(Enemy), option(Employer), option(Employee), option(Commander), option(Subordinate), option(Protector), option(Ward), option(Political Opponent), option(Religious Superior), option(Ancestor), allowOther)]"
+    },
+    {
+      "name": "playerStatus",
+      "declaration": "INPUT[inlineSelect(\noption(Hiatus),\noption(Active),\noption(Retired))]"
+    },
+    {
+      "name": "factionType",
+      "declaration": "INPUT[suggester(option(Religious),option(Criminal),option(Social),option(Political),option(Mercenary),option(Industrial),option(Military) ,option(Tribal),option(Mercantile), allowOther)]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "New Location",
+      "hidden": false,
+      "id": "new-location",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateLocation.md",
+          "fileName": "NewLocation",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New Faction",
+      "hidden": false,
+      "id": "new-faction",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateGroup.md",
+          "fileName": "NewGroup",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New NPC",
+      "hidden": false,
+      "id": "new-npc",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateNPC.md",
+          "fileName": "NewNPC",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New Journal Entry",
+      "hidden": false,
+      "id": "new-journal",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateJournal.md",
+          "fileName": "NewJournal",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New Magic Item",
+      "hidden": false,
+      "id": "new-item",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateMagicItem.md",
+          "fileName": "NewMagicItem",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New Player",
+      "hidden": false,
+      "id": "new-player",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplatePlayer.md",
+          "fileName": "NewPlayer",
+          "folderPath": "/"
+        }
+      ]
+    },
+    {
+      "label": "New Quest",
+      "hidden": false,
+      "id": "new-quest",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "zz-nexus/Templates/04-World Building Templates/TemplateQuest.md",
+          "fileName": "NewQuest",
+          "folderPath": "/"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

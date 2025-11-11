@@ -1,0 +1,2194 @@
+{
+  "mapMarkers": [
+    {
+      "id": "Mai",
+      "lastAccessed": 1755731510965,
+      "markers": [
+        {
+          "id": "ID_ea0b39d9db5b",
+          "type": "Capital",
+          "loc": [
+            1624.5026378761927,
+            2988.5439742631374
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1673999899465382,
+            -1.211411363069495
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a88aab6b4b59",
+          "type": "Temple",
+          "loc": [
+            1448.4434338234073,
+            2231.398464396049
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_794b499b2bc8",
+          "type": "Town",
+          "loc": [
+            1480.969535510368,
+            1920.26885618518
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_685b8a2a0ac9",
+          "type": "Town",
+          "loc": [
+            1198.2579718059064,
+            1789.6292712196278
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9ab29e9eaba",
+          "type": "Town",
+          "loc": [
+            1162.1282046326075,
+            2710.8230376653473
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9819f8ca38c8",
+          "type": "Town",
+          "loc": [
+            1728.4633172477475,
+            2453.4394533844775
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbea58d9aba8",
+          "type": "Town",
+          "loc": [
+            1828.4129431743322,
+            1794.2541984354048
+          ],
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6abadab80849",
+          "type": "Point of Interest",
+          "loc": [
+            1534.8661909509733,
+            2485.7333480042557
+          ],
+          "link": "A Land in Turmoil#Storm",
+          "layer": "%5B%5BMa-i.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "A storm brews",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-Worlds/The Islands of Ma-i/The Islands of Ma-i.md"
+      ]
+    },
+    {
+      "id": "Aethercrest",
+      "locked": false,
+      "lastAccessed": 1761498814538,
+      "markers": [
+        {
+          "id": "ID_9bd948e8ea6a",
+          "type": "Capital",
+          "loc": [
+            1330,
+            2560
+          ],
+          "link": "Goth'Ur Valley",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1,
+            -0.9917971662938105
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_9a38b80b6b6a",
+          "type": "Town",
+          "loc": [
+            1362.1604647907498,
+            2487.1270855623416
+          ],
+          "link": "The Mining Village",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9715340177977897,
+            -1.0157796158021997
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a0a58d8b979",
+          "type": "Town",
+          "loc": [
+            999.8713083876938,
+            3026.8516743710647
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1823639353011972,
+            -0.7456161882085711
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9fbb89b3be8",
+          "type": "Settlement",
+          "loc": [
+            1037.3775867145987,
+            2937.9183718194663
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.147624363991979,
+            -0.7735850758498126
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68cb78a96aa8",
+          "type": "Outpost",
+          "loc": [
+            1348.2476602580796,
+            3078.824383230729
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.2026657746995035,
+            -1.005404668350544
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbbb3adbe8b9",
+          "type": "Outpost",
+          "loc": [
+            1340.1605258274956,
+            3269.6829047252877
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.2772198846583156,
+            -0.9993739939056641
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a2bb878a978",
+          "type": "dungeon",
+          "loc": [
+            1088.902730812256,
+            3069.5125219351476
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.199028328880917,
+            -0.8120080020971335
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_991889a80b98",
+          "type": "Capital",
+          "loc": [
+            851.0805785566154,
+            2315.5891765296005
+          ],
+          "link": "Ixtliyacan",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9045270220818752,
+            -0.6346611324061263
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_bbaabbab9b2b",
+          "type": "City",
+          "loc": [
+            977.2831417870527,
+            2315.1292214349573
+          ],
+          "link": "Cihuapili",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9043473521230302,
+            -0.7287719178128655
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb8918a8396b",
+          "type": "City",
+          "loc": [
+            963.97133963799,
+            2252.84220486034
+          ],
+          "link": "Itzamatli",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8800164862735704,
+            -0.718845145143915
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8b8384a7a2a",
+          "type": "Capital",
+          "loc": [
+            1641.271473136531,
+            2369.656577812502
+          ],
+          "link": "Timpiassi",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9256471007080085,
+            -1.2239160873501351
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_08ba69db19c9",
+          "type": "City",
+          "loc": [
+            1620.85660875288,
+            3009.570597412197
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1756135146141395,
+            -1.2086924748343624
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29aad96b2b78",
+          "type": "Outpost",
+          "loc": [
+            1721.3248368914185,
+            2971.338638684801
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1606791557362504,
+            -1.2836128537594471
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f869fb693828",
+          "type": "Capital",
+          "loc": [
+            1906.852616214872,
+            2361.736649163069
+          ],
+          "link": "Lucianis ",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9225533785793238,
+            -1.4219631739111647
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_09b8682ba8a9",
+          "type": "Outpost",
+          "loc": [
+            1908.2474805116306,
+            3091.3466244129536
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.20755727516131,
+            -1.423003341171984
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3939db8a9899",
+          "type": "Outpost",
+          "loc": [
+            2007.4441573658855,
+            2363.398267295335
+          ],
+          "link": "Ice Fang Outpost",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.9232024481622402,
+            -1.496975508848535
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e98aeab8e8fa",
+          "type": "City",
+          "loc": [
+            2010.9923364289268,
+            2951.4155121293275
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1528966844255186,
+            -1.499621429104345
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3bb86a38194a",
+          "type": "Town",
+          "loc": [
+            2003.182167413152,
+            2772.0104705291233
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0828165900504387,
+            -1.493797291135833
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bfb597949c8",
+          "type": "Town",
+          "loc": [
+            992.5960148701789,
+            2643.6054046632253
+          ],
+          "link": "Caelidrunne",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0326583611965723,
+            -0.7401909134005809
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49badb0b7b49",
+          "type": "Town",
+          "loc": [
+            1400.247599221334,
+            2910.4049341541704
+          ],
+          "link": "Drakkengard",
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.1368769274039727,
+            -1.0441816549003236
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d81a5bb96be8",
+          "type": "Town",
+          "loc": [
+            1092.039138351713,
+            3188.096116753259
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.245350045606742,
+            -0.8143468593226794
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b4bea38bbe9",
+          "type": "Temple",
+          "loc": [
+            1988.227091304241,
+            2315.897416440321
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aaa9c8085a18",
+          "type": "Point of Interest",
+          "loc": [
+            1324.07346656292,
+            2607.1027022348007
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.018399493060469,
+            -0.9873776782721253
+          ],
+          "description": null,
+          "minZoom": -0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a39dba8c9cb",
+          "type": "Point of Interest",
+          "loc": [
+            1359.3983349582672,
+            2782.151658353752
+          ],
+          "layer": "%5B%5BAethercrest.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -0.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    },
+    {
+      "id": "AedrylMap",
+      "locked": true,
+      "lastAccessed": 1761882246082,
+      "markers": [
+        {
+          "id": "ID_8ae8e8295bfb",
+          "type": "Town",
+          "loc": [
+            2719.5326804434617,
+            3312.7952698589747
+          ],
+          "link": "Minthasi",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.647030326144331,
+            -1.0139942880102393
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_39fbd978eb1a",
+          "type": "Town",
+          "loc": [
+            2556.0972465871355,
+            3515.919732391053
+          ],
+          "link": "Kinthrell",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6867030727326275,
+            -0.9530563932092228
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_796b8b5aa8e8",
+          "type": "Town",
+          "loc": [
+            2602.513772182021,
+            3389.342505723709
+          ],
+          "link": "Rafizash",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6619809581491619,
+            -0.9703630768762196
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba29796b382b",
+          "type": "Capital",
+          "loc": [
+            2203.4772418141365,
+            3380.9129174365517
+          ],
+          "link": "Sunspear ",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6603345541868265,
+            -0.821579881362467
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_4828b9d819cb",
+          "type": "Forest",
+          "loc": [
+            2803.82837826125,
+            2729.3038864727087
+          ],
+          "link": "Beast Glades",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.533067165326701,
+            -1.0454244512532624
+          ],
+          "description": null,
+          "minZoom": -2.5,
+          "maxZoom": -0.5,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5959399ac8fa",
+          "type": "Kingdom",
+          "loc": [
+            2280,
+            3540
+          ],
+          "link": "Kingdom Of Solasta",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.69140625,
+            -0.8501118568232662
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": -2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_694b795bfb09",
+          "type": "Kingdom",
+          "loc": [
+            2174.9525399644913,
+            1886.6686388527135
+          ],
+          "link": "The Kingdoms of The Kinclaw Concord",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3684899685259206,
+            -0.8109442729174091
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": -2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_19d85bd8aaa8",
+          "type": "Capital",
+          "loc": [
+            2282.085316199752,
+            1691.6724104665789
+          ],
+          "link": "Mhysacrad",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3304047676692537,
+            -0.8508893796419656
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_dae83b7a2b99",
+          "type": "City",
+          "loc": [
+            2525.5,
+            2045.9994642168278
+          ],
+          "link": "In'avianna",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.39960927035484917,
+            -0.941648023862789
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_a8e838790b48",
+          "type": "Mountain",
+          "loc": [
+            2735.099833972468,
+            3057.283242529829
+          ],
+          "link": "Grimback Peaks",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5971256333066072,
+            -1.0197985958137463
+          ],
+          "description": null,
+          "minZoom": -4,
+          "maxZoom": 0.5,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a49ea9b3808",
+          "type": "Town",
+          "loc": [
+            2491.2708881450912,
+            3807.391371732602
+          ],
+          "link": "Ardenvale",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7436311272915238,
+            -0.9288854914784084
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_99185809ea1a",
+          "type": "Town",
+          "loc": [
+            2410.6823112135817,
+            4343.542636053127
+          ],
+          "link": "Skyfang Range",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8483481711041264,
+            -0.8988375507880618
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9db797a0a6b",
+          "type": "Outpost",
+          "loc": [
+            2954.5903548108895,
+            3356.2468215112663
+          ],
+          "link": "Temple of the Crimson Dawn",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab2ac81b9b78",
+          "type": "Capital",
+          "loc": [
+            3007.2992098638388,
+            3919.871191851278
+          ],
+          "link": "Mirabar",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7655998421584528,
+            -1.1212897874212673
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_0b5b89c8681a",
+          "type": "Kingdom",
+          "loc": [
+            2901.4092200964546,
+            3841.560467500797
+          ],
+          "link": "The Republic of Annedyne",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7503047788087495,
+            -1.0818080611843603
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": -2,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_0af8eaf95819",
+          "type": "Mountain",
+          "loc": [
+            2474.380901781174,
+            2910.3336662228985
+          ],
+          "link": "Grimback Peaks#South ",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5684245441841599,
+            -0.9225879574128166
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_384a5b48c918",
+          "type": "Mountain",
+          "loc": [
+            2996.389417943854,
+            3239.14738292337
+          ],
+          "link": "Grimback Peaks#North ",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_789a893ac889",
+          "type": "Tavern",
+          "loc": [
+            2702.062453136115,
+            2577.5626188959773
+          ],
+          "link": "The Heartwood Hollow",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5034301990031206,
+            -1.0074804075824442
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4878aa69b8d9",
+          "type": "Settlement",
+          "loc": [
+            2772.4356063900595,
+            2775.7349988444894
+          ],
+          "link": "The Druid's Clearing",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5421357419618144,
+            -1.033719465469821
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a4899691a98",
+          "type": "Temple",
+          "loc": [
+            2843.5157202038895,
+            2654.366780073771
+          ],
+          "link": "Temple of a forgotten god",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1999c9cae85b",
+          "type": "Settlement",
+          "loc": [
+            2596.828452100209,
+            3709.772255618753
+          ],
+          "link": "Hillshadow",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7245648936755378,
+            -0.9682432707308758
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_28492a58a8ca",
+          "type": "Mountain",
+          "loc": [
+            2631.0262556213806,
+            3745.6742609578146
+          ],
+          "link": "Blue Ridge Peaks ",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7315770040933232,
+            -0.9809941296127445
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48d9182899ba",
+          "type": "Town",
+          "loc": [
+            2868.8978661402098,
+            3181.5801695057344
+          ],
+          "link": "Frozen Foot ",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6214023768565887,
+            -1.0696860052722632
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28c98a894ba9",
+          "type": "City",
+          "loc": [
+            2922.7776565802833,
+            3445.731344722046
+          ],
+          "link": "Grendoria (Aedryl)",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6729944032660246,
+            -1.089775412595184
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f94bd9aa9a2b",
+          "type": "Town",
+          "loc": [
+            2517.3323259592125,
+            3910.4237396220087
+          ],
+          "link": "Eliscreek",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7637546366449236,
+            -0.9386026569572008
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_0b8ba94a4aaa",
+          "type": "Town",
+          "loc": [
+            2538.8712738157037,
+            4008.087143599581
+          ],
+          "link": "Drakkensong",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7828295202342932,
+            -0.9466335845696137
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_282a4bf98ae8",
+          "type": "Town",
+          "loc": [
+            2381.522727668071,
+            3574
+          ],
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.698046875,
+            -0.8879652228441727
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48ab3949fb6a",
+          "type": "Point of Interest",
+          "loc": [
+            2578.0818835154496,
+            3453.6006435895947
+          ],
+          "link": "Road to Rafizash",
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6745313757010927,
+            -0.9612534987007642
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": 1,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_19098ba9db99",
+          "type": "Town",
+          "loc": [
+            2838.912878721988,
+            2279.958274414726
+          ],
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4453043504716262,
+            -1.058505920477997
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a7bf9c99a4b",
+          "type": "Outpost",
+          "loc": [
+            2870.7836120675897,
+            2354.341373740881
+          ],
+          "layer": "%5B%5BAedrylMap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d94b98ab28a8",
+          "type": "Outpost",
+          "loc": [
+            2699.5,
+            2423.0009108939985
+          ],
+          "link": "Cragthorn Crossroads",
+          "layer": "%5B%5BAedrylMap2.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.47324236540898407,
+            -1.0065249813571961
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8ca582bd809",
+          "type": "Temple",
+          "loc": [
+            2669.8209313509597,
+            2805.7997077482205
+          ],
+          "link": "Frost's Reach Monastery",
+          "layer": "%5B%5BAedrylMap2.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5480077554195744,
+            -0.9954589602352572
+          ],
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b098a6b99c8",
+          "type": "Quest",
+          "loc": [
+            2722.453125,
+            2514.2623186433757
+          ],
+          "link": "Birds Of A Feather#Session 2",
+          "layer": "%5B%5BAedrylMap2.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -1.5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a81a0b39a948",
+          "type": "Town",
+          "loc": [
+            2470,
+            2037.997722765004
+          ],
+          "layer": "%5B%5BAedrylMap2.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3980464302275398,
+            -0.9209545115585384
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 1,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-Worlds/The World of Aedryl/The World of Aedryl.md"
+      ]
+    },
+    {
+      "id": "inavianna",
+      "lastAccessed": 1762472627609,
+      "markers": [
+        {
+          "id": "ID_4998e81b89fa",
+          "type": "Castle",
+          "loc": [
+            1842.6097863375826,
+            1680.389262790367
+          ],
+          "link": "Empyrean Cradle",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a591a88e87a",
+          "type": "Chapel",
+          "loc": [
+            1701.188430100273,
+            1700.1824311434864
+          ],
+          "link": "illithidragon-wyrmling-monstermanualexpanded3",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5be9ea4808ba",
+          "type": "Tavern",
+          "loc": [
+            1235,
+            2425.019847103793
+          ],
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            103.74416458198044,
+            -59.18382628229128
+          ],
+          "description": null,
+          "minZoom": -5,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa7a1908497a",
+          "type": "Store",
+          "loc": [
+            1167.0521209897568,
+            2346.9512355678617
+          ],
+          "link": "Breeze Catch General Store",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ad9caa83bbb",
+          "type": "Chapel",
+          "loc": [
+            1100.9100155901742,
+            2108.7086439889295
+          ],
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_481bbbd95849",
+          "type": "Faction",
+          "loc": [
+            1800.2662435423101,
+            2439.5719322874015
+          ],
+          "link": "Thieves Guild#In'avianna",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_884a29bb0bda",
+          "type": "Faction",
+          "loc": [
+            1947.3168326704715,
+            1129.412324206392
+          ],
+          "link": "Thieves Guild#In'avianna",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b5b69ea3a2a",
+          "type": "Faction",
+          "loc": [
+            1295.3091376991947,
+            1261.9196856961005
+          ],
+          "link": "Skyguard Corp",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebdbea0a987a",
+          "type": "Faction",
+          "loc": [
+            1139.615234375,
+            2006.1547706556894
+          ],
+          "link": "Thieves Guild#In'avianna",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0819e9394bca",
+          "type": "Faction",
+          "loc": [
+            1229.4609375,
+            2275.620846809762
+          ],
+          "link": "Oricoritos",
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b92a19b82b7b",
+          "type": "Armorer",
+          "loc": [
+            1205.9609375,
+            1719.6451043810644
+          ],
+          "layer": "%5B%5Bin_avianna.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    },
+    {
+      "id": "beastgladesroadtocragthorn",
+      "lastAccessed": 1762571042111,
+      "markers": [
+        {
+          "id": "ID_1838990a6ba9",
+          "type": "Point of Interest",
+          "loc": [
+            1497.7847450745803,
+            4270.217851585561
+          ],
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39584acaa929",
+          "type": "Point of Interest",
+          "loc": [
+            2841.2876293290205,
+            1204.2028483606905
+          ],
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bbd82aab5ae9",
+          "type": "Treasure",
+          "loc": [
+            2206.1731573020284,
+            2834.0839789956826
+          ],
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6154362603682264,
+            -0.6055924121059644
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_380adbbbe959",
+          "type": "Enemy",
+          "loc": [
+            1504.7232303649732,
+            3552.5044686812153
+          ],
+          "link": "bandit-captain^statblock",
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7714450529166591,
+            -0.4130450810774014
+          ],
+          "description": "Bandit Captain1",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aacad9f9f858",
+          "type": "Enemy",
+          "loc": [
+            1858.2766209582471,
+            3224.406922210657
+          ],
+          "link": "bandit-captain^statblock",
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7001969429339103,
+            -0.5100951471200239
+          ],
+          "description": "Bandit Captain 2",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a5a2a185879",
+          "type": "Enemy",
+          "loc": [
+            1943.1294347006328,
+            2817.113416247206
+          ],
+          "link": "moon-druid-ocld^statblock",
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6117510133001532,
+            -0.5333871629702533
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29193bcbea3a",
+          "type": "Enemy",
+          "loc": [
+            1388.7577182503794,
+            3495.9359261862915
+          ],
+          "link": "arcana-priest-ocld^statblock",
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7591608960230818,
+            -0.3812126594154212
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a89894909f9",
+          "type": "Enemy",
+          "loc": [
+            2053.2613158704376,
+            3231.4779900225226
+          ],
+          "link": "arcana-priest-ocld^statblock",
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89b9c9eac819",
+          "type": "Treasure",
+          "loc": [
+            1945.7810851300824,
+            2886.4098808034873
+          ],
+          "layer": "%5B%5BBeast%20Glades%20road%20to%20Cragthorn.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1-Parties/The Adventurer's Guild/Quests/Birds Of A Feather.md"
+      ]
+    },
+    {
+      "id": "cragthorncrossroads",
+      "lastAccessed": 1762793106350,
+      "markers": [
+        {
+          "id": "ID_48793919c9f9",
+          "type": "Tavern",
+          "loc": [
+            1524.5222202381965,
+            3043.382122853335
+          ],
+          "layer": "%5B%5Bcragthorn_crossroads.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.0024315292665795,
+            -1.1039262999552473
+          ],
+          "description": null,
+          "minZoom": -6,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6998c80938aa",
+          "type": "Armorer",
+          "loc": [
+            1948.7862889501253,
+            3637.3062909369896
+          ],
+          "link": "Grek Thimbauld",
+          "layer": "%5B%5Bcragthorn_crossroads.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.198058725605069,
+            -1.4111414112600473
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b196b18eaf9",
+          "type": "Store",
+          "loc": [
+            1156.8266940211918,
+            2952.8809534425586
+          ],
+          "link": "Mhystle Shiftteeth",
+          "layer": "%5B%5Bcragthorn_crossroads.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.972622184928379,
+            -0.8376732034910874
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_987af849b848",
+          "type": "Chapel",
+          "loc": [
+            587,
+            1720.9974245410024
+          ],
+          "layer": "%5B%5Bcragthorn_crossroads.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.566863446818512,
+            -0.42505430847212167
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba28ebd8eb0a",
+          "type": "Chapel",
+          "loc": [
+            574.1707063234767,
+            2341.937052248338
+          ],
+          "layer": "%5B%5Bcragthorn_crossroads.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.7713890158920745,
+            -0.4157644506324958
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "2-Worlds/The World of Aedryl/Places/Cragthorn Crossroads.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker-alt",
+    "color": "#f50000",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "Town",
+      "iconName": "home",
+      "color": "#23a47d",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1,
+      "maxZoom": 1
+    },
+    {
+      "type": "City",
+      "iconName": "landmark",
+      "color": "#f0a400",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": 1
+    },
+    {
+      "type": "Kingdom",
+      "iconName": "crown",
+      "color": "#ffae00",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": -2
+    },
+    {
+      "type": "Capital",
+      "iconName": "star",
+      "color": "#eb8900",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": 1
+    },
+    {
+      "type": "dungeon",
+      "iconName": "dungeon",
+      "color": "#a30000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Mountain",
+      "iconName": "mountain",
+      "color": "#098a00",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": 1
+    },
+    {
+      "type": "Forest",
+      "iconName": "tree",
+      "color": "#00700d",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": 1
+    },
+    {
+      "type": "Outpost",
+      "iconName": "chess-rook",
+      "color": "#ceccdb",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Tavern",
+      "iconName": "dragon",
+      "color": "#9e0000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": null
+    },
+    {
+      "type": "Settlement",
+      "iconName": "campground",
+      "color": "#ffae00",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": 1
+    },
+    {
+      "type": "Temple",
+      "iconName": "gopuram",
+      "color": "#866985",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": -1.5,
+      "maxZoom": null
+    },
+    {
+      "type": "Point of Interest",
+      "iconName": "asterisk",
+      "color": "#00aaff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Trap",
+      "iconName": "exclamation-triangle",
+      "color": "#e0a500",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Treasure",
+      "iconName": "gem",
+      "color": "#82aad3",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Enemy",
+      "iconName": "skull",
+      "color": "#7e4e4e",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Quest",
+      "iconName": "exclamation",
+      "color": "#ff9500",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Castle",
+      "iconName": "chess-rook",
+      "color": "#009dff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Chapel",
+      "iconName": "place-of-worship",
+      "color": "#00cc8f",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Store",
+      "iconName": "store",
+      "color": "#00ad14",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Faction",
+      "iconName": "users",
+      "color": "#8400f0",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Armorer",
+      "iconName": "shield-alt",
+      "color": "#729de4",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": false,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": true,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": -1.5,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "400px",
+    "image": "[[Beast Glades road to Cragthorn.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Beast Glades road to Cragthorn.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 1,
+    "minZoom": -1.5,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 0.0417,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.5,
+    "zoomFeatures": false,
+    "id": "beastgladesroadtocragthorn",
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        3643,
+        4605
+      ]
+    ],
+    "width": "60%",
+    "long": 3058.5834,
+    "lat": 1819.0322,
+    "unit": "feet",
+    "recenter": true,
+    "darkmode": false,
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

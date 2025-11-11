@@ -1,0 +1,19 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "zz-nexus/Attachments",
+  "newFileLocation": "folder",
+  "focusNewTab": false,
+  "livePreview": false,
+  "newFileFolderPath": "zz-nexus/zz_temp",
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

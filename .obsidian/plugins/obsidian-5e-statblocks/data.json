@@ -1,0 +1,1069 @@
+{
+  "monsters": [
+    [
+      "Warlock Grunt",
+      {
+        "name": "Warlock Grunt",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "any race",
+        "alignment": "Any Non-Chaotic alignment",
+        "ac": 14,
+        "ac_class": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/items/studded-leather-armor-xphb.md|studded leather<STATBLOCK-MARKDOWN-LINK>",
+        "hp": 36,
+        "hit_dice": "6d8 + 6",
+        "modifier": 2,
+        "stats": [
+          10,
+          14,
+          12,
+          10,
+          15,
+          17
+        ],
+        "speed": "30 ft.",
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Perception|Perception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          }
+        ],
+        "damage_resistances": "necrotic",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "darkvision 60 ft., passive Perception 16",
+        "languages": "any two languages",
+        "cr": "1/4",
+        "traits": [
+          {
+            "desc": "The warlock is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells.\n\nCantrips (at will): <STATBLOCK-WIKI-LINK>eldritch-blast-xphb|Eldritch Blast<STATBLOCK-WIKI-LINK>\n\n1st-2nd level (2 slots): <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/false-life-xphb.md|false life<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/sanctuary-xphb.md|sanctuary<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/silence-xphb.md|silence<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/spiritual-weapon-xphb.md|spiritual weapon<STATBLOCK-MARKDOWN-LINK> (a scythe)",
+            "name": "Spellcasting"
+          }
+        ],
+        "actions": [
+          {
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+            "name": "Sickle"
+          }
+        ],
+        "source": "CGRA",
+        "image": null,
+        "mtime": 1754020117856,
+        "path": null,
+        "creature": "Warlock of the Raven Queen (OCLD)",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Im'Kasir, Herald of Ash",
+      {
+        "name": "Im'Kasir, Herald of Ash",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "Human",
+        "alignment": "CE",
+        "ac": 12,
+        "ac_class": "15 with <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/mage-armor-xphb.md|mage armor<STATBLOCK-MARKDOWN-LINK>",
+        "hp": 104,
+        "hit_dice": "16d8 + 32",
+        "modifier": 2,
+        "stats": [
+          10,
+          12,
+          14,
+          12,
+          12,
+          20
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "wisdom": 6
+          },
+          {
+            "charisma": 10
+          }
+        ],
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Arcana|Arcana<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Deception|Deception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+10"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Perception|Perception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Religion|Religion<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          }
+        ],
+        "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+        "senses": "darkvision 60 ft., passive Perception 16",
+        "languages": "any two languages (usually Abyssal or Infernal)",
+        "cr": "14",
+        "traits": [
+          {
+            "desc": "If the warlock fails a saving throw, it can choose to succeed instead.",
+            "name": "Legendary Resistance (3/Day)"
+          },
+          {
+            "desc": "When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.",
+            "name": "The Ashen King's luck (Recharges After A Short Or Long Rest)"
+          },
+          {
+            "desc": "When the warlock casts a spell and is interrupted by an enemy's <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/counterspell-xphb.md|counterspell<STATBLOCK-MARKDOWN-LINK>, treat the spell's level as 3 levels higher.",
+            "name": "Spell Penetration"
+          },
+          {
+            "desc": "The warlock has advantage on saving throws it makes to maintain its concentration.",
+            "name": "Supreme Focus"
+          }
+        ],
+        "actions": [
+          {
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 3 (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if wielded with two hands, plus 9 (2d8) fire damage.",
+            "name": "Quarterstaff"
+          },
+          {
+            "desc": "The warlock summons a <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/bestiary/fiend/barbed-devil-xmm.md|barbed devil<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/bestiary/fiend/barlgura-xmm.md|barlgura<STATBLOCK-MARKDOWN-LINK>, or <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/bestiary/fiend/mezzoloth-xmm.md|mezzoloth<STATBLOCK-MARKDOWN-LINK>. A summoned fiend appears in an unoccupied space within 60 feet of the warlock and acts as an ally of the warlock. It remains for an hour, until it or the warlock dies, or until its summoner dismisses it as an action.",
+            "name": "Summon Fiend (1/Day)"
+          },
+          {
+            "desc": "The warlock casts one of the following spells using Charisma as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks):\n\nAt will: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/eldritch-blast-xphb.md|eldritch blast<STATBLOCK-MARKDOWN-LINK> (4 beams, 1d10 + 5), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/freedom-of-movement-xphb.md|freedom of movement<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/levitate-xphb.md|levitate<STATBLOCK-MARKDOWN-LINK> (self only), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/mage-armor-xphb.md|mage armor<STATBLOCK-MARKDOWN-LINK> (self only), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/fire-bolt-xphb.md|fire bolt<STATBLOCK-MARKDOWN-LINK> (4d10), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/mage-hand-xphb.md|mage hand<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/minor-illusion-xphb.md|minor illusion<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/prestidigitation-xphb.md|prestidigitation<STATBLOCK-MARKDOWN-LINK>\n\n4/day: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/banishment-xphb.md|banishment<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/counterspell-xphb.md|counterspell<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/dispel-magic-xphb.md|dispel magic<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/fireball-xphb.md|fireball<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/fly-xphb.md|fly<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/stinking-cloud-xphb.md|stinking cloud<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/summon-greater-demon-xge.md|summon greater demon<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/wall-of-fire-xphb.md|wall of fire<STATBLOCK-MARKDOWN-LINK> (as 5th-level spell)\n\n1/day each: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/circle-of-death-xphb.md|circle of death<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/power-word-pain-xge.md|power word pain<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/plane-shift-xphb.md|plane shift<STATBLOCK-MARKDOWN-LINK>",
+            "name": "Innate Spellcasting"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "desc": "The warlock moves up to half its speed without provoking <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/actions.md#Opportunity%20Attack|opportunity attacks<STATBLOCK-MARKDOWN-LINK>.",
+            "name": "Move"
+          },
+          {
+            "desc": "The warlock attacks with its Quarterstaff.",
+            "name": "Quarterstaff"
+          },
+          {
+            "desc": "The warlock targets one creature it can see within 60 feet of it. If the target can see and hear the warlock, it must succeed on a DC 18 Wisdom saving throw or become <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK> or <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK> (warlock's choice) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to warlock's Diabolical Presence for the next 24 hours.",
+            "name": "Diabolical Presence"
+          },
+          {
+            "desc": "The warlock casts <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/eldritch-blast-xphb.md|eldritch blast<STATBLOCK-MARKDOWN-LINK>.",
+            "name": "Eldritch Blast (Costs 2 Actions)"
+          }
+        ],
+        "source": [
+          "CGRA"
+        ],
+        "image": "/5.%20Mechanics/CLI/5E/compendium/bestiary/humanoid/token/warlock-of-the-fiend-legendary-monstermanualexpanded3.png",
+        "mtime": 1754020114535,
+        "path": "5-Mechanics/CLI/5E/compendium/bestiary/humanoid/warlock-of-the-fiend-legendary-monstermanualexpanded3.md",
+        "creature": "Warlock of the Fiend, Legendary (MonsterManualExpanded3)",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Kae'l Thalas, Kalarel the Vile",
+      {
+        "extends": [
+          "Lich (XMM)",
+          "Aspect of Orcus (mme2-v2)"
+        ],
+        "name": "Kae'l Thalas, Kalarel the Vile",
+        "ac_class": "natural armor; 23 with the <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/items/wand-of-orcus-xdmg.md|Wand of Orcus<STATBLOCK-MARKDOWN-LINK>",
+        "size": "Medium",
+        "type": "undead",
+        "subtype": "wizard",
+        "alignment": "Neutral Evil",
+        "ac": 20,
+        "hp": 315,
+        "hit_dice": "42d8 + 126",
+        "modifier": 17,
+        "stats": [
+          11,
+          16,
+          16,
+          21,
+          14,
+          16
+        ],
+        "speed": "30 ft.",
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Arcana|Arcana<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+19"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#History|History<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+12"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Insight|Insight<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+9"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/skills.md#Perception|Perception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+9"
+          }
+        ],
+        "damage_resistances": "cold, lightning",
+        "damage_immunities": "necrotic, poison",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Exhaustion|exhaustion<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Paralyzed|paralyzed<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Poisoned|poisoned<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "truesight 120 ft., passive Perception 19",
+        "languages": "all",
+        "cr": "21",
+        "traits": [
+          {
+            "desc": "If the aspect fails a saving throw, it can choose to succeed instead.",
+            "name": "Legendary Resistance (1/Day)"
+          },
+          {
+            "desc": "If the lich fails a saving throw, it can choose to succeed instead.",
+            "name": "Legendary Resistance (4/Day, or 5/Day in Lair)"
+          },
+          {
+            "desc": "If destroyed, the lich reforms in d10 days if it has a spirit jar, reviving with all its <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/variant-rules/hit-points-xphb.md|Hit Points<STATBLOCK-MARKDOWN-LINK>. The new body appears in an unoccupied space within the lich's lair.",
+            "name": "Spirit Jar"
+          }
+        ],
+        "actions": [
+          {
+            "desc": "The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination.",
+            "name": "Multiattack"
+          },
+          {
+            "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage plus 13 (2d12) necrotic damage.",
+            "name": "Wand of Orcus"
+          },
+          {
+            "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) force damage plus 9 (2d8) poison damage.",
+            "name": "Tail"
+          },
+          {
+            "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage.",
+            "name": "Necrotic Bolt"
+          },
+          {
+            "desc": "While holding the Wand of Orcus, the aspect conjures Undead creatures whose combined average hit points don't exceed 150. These creatures magically rise up from the ground or otherwise form in unoccupied spaces within 150 feet of the aspect and obey his commands until they are destroyed or until he dismisses them as an action.",
+            "name": "Conjure Undead (1/Day)"
+          },
+          {
+            "desc": "The lich casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 20):\n\nAt will: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/detect-magic-xphb.md|Detect Magic<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/detect-thoughts-xphb.md|Detect Thoughts<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/dispel-magic-xphb.md|Dispel Magic<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/fireball-xphb.md|Fireball<STATBLOCK-MARKDOWN-LINK> (level 5 version), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/invisibility-xphb.md|Invisibility<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/lightning-bolt-xphb.md|Lightning Bolt<STATBLOCK-MARKDOWN-LINK> (level 5 version), <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/mage-hand-xphb.md|Mage Hand<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/prestidigitation-xphb.md|Prestidigitation<STATBLOCK-MARKDOWN-LINK>\n\n2/day each: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/animate-dead-xphb.md|Animate Dead<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/dimension-door-xphb.md|Dimension Door<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/plane-shift-xphb.md|Plane Shift<STATBLOCK-MARKDOWN-LINK>\n\n1/day each: <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/chain-lightning-xphb.md|Chain Lightning<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/finger-of-death-xphb.md|Finger of Death<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/power-word-kill-xphb.md|Power Word Kill<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/scrying-xphb.md|Scrying<STATBLOCK-MARKDOWN-LINK>",
+            "name": "Spellcasting"
+          },
+          {
+            "desc": "Melee  or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Force damage.",
+            "name": "Eldritch Burst"
+          },
+          {
+            "desc": "Melee Attack Roll: +12, reach 5 ft. Hit: 15 (3d6 + 5) Cold damage, and the target has the <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/conditions.md#Paralyzed|Paralyzed<STATBLOCK-MARKDOWN-LINK> condition until the start of the lich's next turn.",
+            "name": "Paralyzing Touch"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "desc": "The aspect makes one Necrotic Bolt attack.",
+            "name": "Necrotic Bolt"
+          },
+          {
+            "desc": "The aspect makes one Tail attack.",
+            "name": "Tail (Costs 2 Actions)"
+          },
+          {
+            "desc": "The aspect chooses a point on the ground that it can see within 100 feet of it. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of the aspect's next turn. Creatures in that area have vulnerability to necrotic damage.",
+            "name": "Creeping Death (Costs 2 Actions)"
+          },
+          {
+            "desc": "The lich teleports up to 60 feet to an unoccupied space it can see, and each creature within 10 feet of the space it left takes 11 (2d10) Necrotic damage.",
+            "name": "Deathly Teleport"
+          },
+          {
+            "desc": "Constitution Saving Throw: DC 20, each creature that isn't an Undead in a 20-foot <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/rules/variant-rules/emanation-area-of-effect-xphb.md|Emanation<STATBLOCK-MARKDOWN-LINK> originating from the lich. Failure: 31 (9d6) Necrotic damage. Success: Half damage. Failure or Success: The lich can't take this action again until the start of its next turn.",
+            "name": "Disrupt Life"
+          },
+          {
+            "desc": "The lich casts <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/fear-xphb.md|Fear<STATBLOCK-MARKDOWN-LINK>, using the same spellcasting ability as Spellcasting. The lich can't take this action again until the start of its next turn.\n",
+            "name": "Frightening Gaze"
+          }
+        ],
+        "source": [
+          "XMM",
+          "DrDe"
+        ],
+        "image": "/5.%20Mechanics/CLI/5E/compendium/bestiary/undead/token/lich-xmm.webp",
+        "mtime": 1754020119283,
+        "path": "5-Mechanics/CLI/5E/compendium/bestiary/undead/lich-xmm.md",
+        "saves": [
+          {
+            "dexterity": 10
+          },
+          {
+            "constitution": 10
+          },
+          {
+            "intelligence": 12
+          },
+          {
+            "wisdom": 9
+          }
+        ],
+        "reactions": [
+          {
+            "desc": "The lich casts <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/counterspell-xphb.md|Counterspell<STATBLOCK-MARKDOWN-LINK> or <STATBLOCK-MARKDOWN-LINK>/5.%20Mechanics/CLI/5E/compendium/spells/shield-xphb.md|Shield<STATBLOCK-MARKDOWN-LINK> in response to the spell's trigger, using the same spellcasting ability as Spellcasting.\n",
+            "name": "Protective Magic"
+          }
+        ],
+        "regional_effects": [
+          {
+            "desc": "If the lich is destroyed or moves its lair elsewhere, these effects end immediately. These effects resume if the lich gains a new body (see its Spirit Jar trait).",
+            "name": ""
+          }
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Acid Burrower",
+      {
+        "system": "DH",
+        "layout": "Daggerheart Adversary",
+        "tier": 1,
+        "type": "Solo",
+        "name": "Acid Burrower",
+        "experience": "Tremor Sense +2",
+        "horde_hp": "undefined",
+        "description": "A horse-sized insect with digging claws and acidic blood.",
+        "motives_and_tactics": "Burrow, drag away, feed, reposition",
+        "difficulty": 14,
+        "thresholds": "8/15",
+        "hp": 8,
+        "stress": "3",
+        "atk": "+3",
+        "attack": "Claws:",
+        "range": "Very Close",
+        "damage": "1d12+2 phy  ",
+        "traits": [
+          {
+            "name": "Relentless (3) - Passive",
+            "desc": "The Burrower can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them."
+          },
+          {
+            "name": "Earth Eruption - Action",
+            "desc": "Mark a Stress to have the Burrower burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them Vulnerable until they next act."
+          },
+          {
+            "name": "Spit Acid - Action",
+            "desc": "Make an attack against all targets in front of the Burrower within Close range. Targets the Burrower succeeds against take 2d6 physical damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP and you gain a Fear."
+          },
+          {
+            "name": "Acid Bath - Reaction",
+            "desc": "When the Burrower takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking 1d10 physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Burrower who move through it take 1d6 physical damage."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Raging River",
+      {
+        "system": "DH",
+        "category": "environment",
+        "layout": "Daggerheart Environment",
+        "tier": 1,
+        "type": "Traversal",
+        "name": "Raging River",
+        "description": "A swift-moving river without a bridge crossing, deep enough to sweep away most people.",
+        "impulses": "Bar crossing, carry away the unready, divide the land",
+        "difficulty": 10,
+        "potential_adversaries": "Beasts (Bear, Glass Snake), Jagged Knife Bandits (Hexer, Kneebreaker, Lackey, Lieutenant, Shadow, Sniper)",
+        "features": [
+          {
+            "name": "Dangerous Crossing - Passive",
+            "desc": "<p>Crossing the river requires the party to complete a Progress Countdown (4). A PC who rolls a failure with Fear is immediately targeted by the “Undertow” action without requiring a Fear to be spent on the feature.  </p>"
+          },
+          {
+            "name": "Undertow - Action",
+            "desc": "<p>Spend a Fear to catch a PC in the undertow. They must make an Agility Reaction Roll. On a failure, they take 1d6+1 physical damage and are moved a Close distance down the river, becoming Vulnerable until they get out of the river. On a success, they must mark a Stress.  </p>"
+          },
+          {
+            "name": "Patient Hunter - Action",
+            "desc": "<p>Spend a Fear to summon a Glass Snake within Close range of a chosen PC. The Snake appears in or near the river and immediately takes the spotlight to use their “Spinning Serpent” action.  </p>"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Mountain Pass",
+      {
+        "system": "DH",
+        "category": "environment",
+        "layout": "Daggerheart Environment",
+        "tier": 2,
+        "type": "Traversal",
+        "name": "Mountain Pass",
+        "description": "Stony peaks that pierce the clouds, with a twisting path winding its way up and over through many switchbacks.",
+        "impulses": "Exact a chilling toll in supplies and stamina, reveal magical slumber, slow down travel",
+        "difficulty": 15,
+        "potential_adversaries": "Beasts (Bear, Giant Eagle, Glass Snake), Chaos Skull, Minotaur Wrecker, Mortal Hunter",
+        "features": [
+          {
+            "name": "Engraved Sigils - Passive",
+            "desc": "<p>Large markings and engravings have been made in the mountainside. A PC with a relevant background or Experience identifies them as weather magic increasing the power of the icy winds. A PC who succeeds on a Knowledge Roll can recall information about the sigils, potential information about their creators, and the knowledge of how to dispel them. If a PC critically succeeds, they recognize that the sigils are of a style created by highborne enchanters and they gain advantage on a roll to dispel the sigils.  </p>"
+          },
+          {
+            "name": "Avalanche - Action",
+            "desc": "<p>Spend a Fear to carve the mountain with an icy torrent, causing an avalanche. All PCs in its path must succeed on an Agility or Strength Reaction Roll or be bowled over and carried down the mountain. A PC using rope, pitons, or other climbing gear gains advantage on this roll. Targets who fail are knocked down the mountain to Far range, take 2d20 physical damage, and must mark a Stress. Targets who succeed must mark a Stress.  </p>"
+          },
+          {
+            "name": "Raptor Nest - Reaction",
+            "desc": "<p>When the PCs enter the raptors’ hunting grounds, two Giant Eagles appear at Very Far range of a chosen PC, identifying the PCs as likely prey.  </p>"
+          },
+          {
+            "name": "Icy Winds - Reaction",
+            "desc": "<p>Countdown (Loop 4). When the PCs enter the mountain pass, activate the countdown. When it triggers, all characters traveling through the pass must succeed on a Strength Reaction Roll or mark a Stress. A PC wearing clothes appropriate for extreme cold gains advantage on these rolls.  </p>"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Gorgon (DH)",
+      {
+        "system": "DH",
+        "layout": "Daggerheart Adversary",
+        "tier": 2,
+        "type": "Solo",
+        "name": "Gorgon (DH)",
+        "experience": "Instinct +3",
+        "minion_str": "undefined",
+        "horde_hp": "undefined",
+        "description": "A snake-headed, scaled humanoid with a gilded bow, enraged that their peace has been disturbed.",
+        "motives_and_tactics": "Corner, hit-and-run, petrify, seek vengeance",
+        "difficulty": 15,
+        "ac": 15,
+        "thresholds": "13/25",
+        "hp": 9,
+        "stress": "3",
+        "atk": "+4",
+        "attack": "Sinew Shortbow:",
+        "range": "Far",
+        "damage": "2d20+3 mag  ",
+        "feats": [
+          {
+            "name": "Relentless (2) - Passive",
+            "desc": "The Gorgon can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+          },
+          {
+            "name": "Suneater Arrows - Passive",
+            "desc": "When the Gorgon makes a successful standard attack, the target Glows until the end of the scene and can’t become Hidden. Attack rolls made against a Glowing target have advantage."
+          },
+          {
+            "name": "Crown of Serpents - Action",
+            "desc": "Make an attack roll against a target within Melee range using the Gorgon’s protective snakes. On a success, mark Stress to deal 2d10+4 physical damage and the target must mark a Stress."
+          },
+          {
+            "name": "Petrifying Gaze - Reaction",
+            "desc": "When the Gorgon takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the Gorgon is attacked. When it triggers, the target must make a death move. If the Gorgon is defeated, all petrification countdowns end."
+          },
+          {
+            "name": "Death Glare - Reaction",
+            "desc": "When the Gorgon makes a successful attack against a PC, you gain a Fear."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Gorgon - DH",
+      {
+        "system": "DH",
+        "layout": "Daggerheart Adversary",
+        "tier": 2,
+        "type": "Solo",
+        "name": "Gorgon - DH",
+        "experience": "Instinct +3",
+        "minion_str": "undefined",
+        "horde_hp": "undefined",
+        "description": "A snake-headed, scaled humanoid with a gilded bow, enraged that their peace has been disturbed.",
+        "motives_and_tactics": "Corner, hit-and-run, petrify, seek vengeance",
+        "difficulty": 15,
+        "ac": 15,
+        "thresholds": "13/25",
+        "hp": 9,
+        "stress": "3",
+        "atk": "+4",
+        "attack": "Sinew Shortbow:",
+        "range": "Far",
+        "damage": "2d20+3 mag  ",
+        "feats": [
+          {
+            "name": "Relentless (2) - Passive",
+            "desc": "The Gorgon can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them."
+          },
+          {
+            "name": "Suneater Arrows - Passive",
+            "desc": "When the Gorgon makes a successful standard attack, the target Glows until the end of the scene and can’t become Hidden. Attack rolls made against a Glowing target have advantage."
+          },
+          {
+            "name": "Crown of Serpents - Action",
+            "desc": "Make an attack roll against a target within Melee range using the Gorgon’s protective snakes. On a success, mark Stress to deal 2d10+4 physical damage and the target must mark a Stress."
+          },
+          {
+            "name": "Petrifying Gaze - Reaction",
+            "desc": "When the Gorgon takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the Gorgon is attacked. When it triggers, the target must make a death move. If the Gorgon is defeated, all petrification countdowns end."
+          },
+          {
+            "name": "Death Glare - Reaction",
+            "desc": "When the Gorgon makes a successful attack against a PC, you gain a Fear."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ]
+  ],
+  "defaultLayouts": {
+    "daggerheart-environment": {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "9beb08f99a5a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "89998949fb0b",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "-",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "982ba9097959",
+              "properties": [
+                "tier"
+              ],
+              "fallback": "",
+              "callback": "return monster.tier + \" \" + monster.type;",
+              "conditioned": true,
+              "display": "Tier"
+            },
+            {
+              "type": "text",
+              "id": "a8196bebf98a",
+              "properties": [
+                "description"
+              ],
+              "text": "",
+              "fallback": "-",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "a8988bca599a",
+              "properties": [
+                "impulses"
+              ],
+              "fallback": "-",
+              "display": "Impulses:",
+              "conditioned": true
+            },
+            {
+              "type": "group",
+              "id": "c90a4a79fb0b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "ab385a3b1869",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "781b3bdbd86b",
+                      "properties": [
+                        "difficulty"
+                      ],
+                      "fallback": "-",
+                      "display": "Difficulty:",
+                      "conditioned": true
+                    }
+                  ]
+                },
+                {
+                  "type": "inline",
+                  "id": "694abb2acaf9",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "58a80a396ba9",
+                      "properties": [
+                        "potential_adversaries"
+                      ],
+                      "fallback": "-",
+                      "display": "Potential Adversaries:",
+                      "conditioned": true
+                    }
+                  ],
+                  "hasRule": true
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "traits",
+              "id": "eb590bb8cb9b",
+              "properties": [
+                "features"
+              ],
+              "fallback": "-",
+              "heading": "Features",
+              "conditioned": true,
+              "headingProp": false,
+              "callback": "return property.text;"
+            }
+          ],
+          "heading": "",
+          "cls": "daggerheart-environment"
+        }
+      ],
+      "id": "daggerheart-environment",
+      "name": "Daggerheart Environment",
+      "edited": true
+    },
+    "daggerheart-adversary": {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "ebba4bf9d878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "8a3b6b78f89b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "89998949fb0b",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 1,
+                  "fallback": "-",
+                  "conditioned": true
+                },
+                {
+                  "type": "inline",
+                  "id": "5839cae85ac8",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "action",
+                      "id": "2b19997a7a9a",
+                      "icon": "plus-circle",
+                      "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {\nconsole.log(e)\n}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "7ba8a9d9d968",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "982ba9097959",
+              "properties": [
+                "tier"
+              ],
+              "fallback": "",
+              "callback": "return monster.tier + \" \" + monster.type;",
+              "conditioned": true,
+              "display": "Tier"
+            }
+          ],
+          "cls": "daggerheart-adversary-tier"
+        },
+        {
+          "type": "group",
+          "id": "48780938f9a8",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "a8196bebf98a",
+              "properties": [
+                "description"
+              ],
+              "text": "",
+              "fallback": "-",
+              "conditioned": true
+            }
+          ],
+          "heading": "",
+          "cls": "daggerheart-adversary-description"
+        },
+        {
+          "type": "group",
+          "id": "eb5b3a8a9ac9",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "a8988bca599a",
+              "properties": [
+                "motives_and_tactics"
+              ],
+              "fallback": "-",
+              "display": "Motives & Tactics:"
+            }
+          ],
+          "hasRule": true,
+          "cls": "daggerheart-adversary-motives"
+        },
+        {
+          "type": "group",
+          "id": "c90a4a79fb0b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "ab385a3b1869",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "781b3bdbd86b",
+                  "properties": [
+                    "difficulty"
+                  ],
+                  "fallback": "-",
+                  "display": "Difficulty:",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "5ae888f87b98",
+                  "properties": [
+                    "thresholds"
+                  ],
+                  "fallback": "-",
+                  "display": "Thresholds"
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "694abb2acaf9",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "58a80a396ba9",
+                  "properties": [
+                    "atk"
+                  ],
+                  "fallback": "-",
+                  "display": "ATK:"
+                },
+                {
+                  "type": "property",
+                  "id": "cb48eb0918aa",
+                  "properties": [
+                    "attack"
+                  ],
+                  "fallback": "-",
+                  "display": "Attack:",
+                  "callback": "return monster.attack + \" - \" + monster.range + \" - \" + monster.damage;"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "property",
+              "id": "0a99fa7a9b3b",
+              "properties": [
+                "experience"
+              ],
+              "fallback": "-",
+              "display": "Experience:",
+              "conditioned": true
+            }
+          ],
+          "hasRule": false
+        },
+        {
+          "type": "traits",
+          "id": "eb590bb8cb9b",
+          "properties": [
+            "feats"
+          ],
+          "fallback": "-",
+          "heading": "Features",
+          "conditioned": true,
+          "headingProp": false,
+          "callback": "return property.text;"
+        },
+        {
+          "type": "javascript",
+          "id": "38898abb38db",
+          "conditioned": false,
+          "code": "const getStatLine = () => {\n    const statLine = document.createElement(\"div\");\n    const statClass = `${monster.name.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}-block`;\n    statLine.classList.add(\"adversary-block\");\n    statLine.classList.add(statClass);\n\n    let numBlocks = monster.qty ? monster.qty : 1;\n\n    for (let i = 1; i <= numBlocks; i++) {\n        let adversaryBlock = document.createElement(\"div\");\n        let adversaryClass = `${monster.name.replace(/[^a-zA-Z0-9]/g,'-').toLowerCase()}-block`;\n        adversaryBlock.classList.add(\"stat-line\");\n        adversaryBlock.classList.add(adversaryClass);\n\n        // add adversary name/number\n        adversaryBlock.append(getAdversaryNameBlock(monster.name, i));\n        \n        // add hp title\n        adversaryBlock.append(document.createElement(\"br\"));\n        adversaryBlock.append(getStatNameBlock(\"HP\", monster.hp));\n\n        // for each hp make checkbox\n        for (let h = 0; h < monster.hp; h++) {\n            adversaryBlock.append(getCheckboxValueBlock(\"hp\", h));\n        }\n        \n        // add stress title\n        adversaryBlock.append(document.createElement(\"br\"));\n        adversaryBlock.append(getStatNameBlock(\"stress\", monster.stress));\n\n        // for each stress make checkbox\n        for (let s = 0; s < monster.stress; s++) {\n            adversaryBlock.append(getCheckboxValueBlock(\"stress\", s));\n        }\n\n        statLine.append(adversaryBlock);\n    }\n    \n    return statLine;\n}\n\nconst getCheckboxValueBlock = (type, val) => {\n    const checkbox = document.createElement(\"input\");\n    checkbox.type = \"checkbox\";\n    checkbox.classList.add(`${type}-${val}`);\n    checkbox.classList.add(\"stat-value\");\n    checkbox.onclick = () => {\n        console.log(\"Invoke script to save data\");\n    };\n    return checkbox;\n}\n\nconst getStatNameBlock = (statName, val) => {\n    const statNameBlock = document.createElement(\"span\");\n    statNameBlock.classList.add(\"stat-name\");\n    statNameBlock.innerText = `${statName.toUpperCase()} (${val}): `;\n    return statNameBlock;\n}\n\nconst getAdversaryNameBlock = (adversaryName, num) => {\n    const adversaryNameBlock = document.createElement(\"span\");\n    adversaryNameBlock.classList.add(\"adversary-name\");\n    adversaryNameBlock.innerText = `${adversaryName.toUpperCase()} #${num}: `;\n    return adversaryNameBlock;\n}\n\nconst statFullBlock = document.createElement(\"div\");\nstatFullBlock.classList.add(\"stat-block\");\nstatFullBlock.append(getStatLine());\n\nreturn statFullBlock;\n"
+        }
+      ],
+      "id": "daggerheart-adversary",
+      "name": "Daggerheart Adversary",
+      "edited": true
+    },
+    "daggerheart-card": {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "fae98b382b8b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "488aea38d9a9",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "javascript",
+                  "id": "685908eb3b9a",
+                  "conditioned": false,
+                  "code": "const ribbonBlock = document.createElement(\"div\");\nribbonBlock.classList.add(\"daggerheart-card-ribbon\");\n\nconst levelBlock = document.createElement(\"div\");\nlevelBlock.classList.add(\"card-level\");\n\nconst levelText = document.createElement(\"span\");\nlevelText.innerHTML = monster.level;\n\nlevelBlock.append(levelText);\n\nconst domainBlock = document.createElement(\"div\");\ndomainBlock.classList.add(\"card-domain\");\ndomainBlock.classList.add(monster.domain);\n\nconst domainText = document.createElement(\"span\");\ndomainText.innerText = monster.domain;\ndomainBlock.append(domainText)\n\nribbonBlock.append(levelBlock);\nribbonBlock.append(domainBlock); \n\nreturn ribbonBlock;"
+                },
+                {
+                  "type": "group",
+                  "id": "7b59baf8aa08",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "094b19aabb38",
+                      "properties": [
+                        "recall"
+                      ],
+                      "fallback": "-",
+                      "conditioned": true
+                    }
+                  ]
+                }
+              ],
+              "conditioned": false
+            },
+            {
+              "type": "image",
+              "id": "9a0baa691af9",
+              "properties": [
+                "image"
+              ],
+              "fallback": "-"
+            },
+            {
+              "type": "group",
+              "id": "995ac80a7b5a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "javascript",
+                  "id": "cb3a08baabfb",
+                  "conditioned": false,
+                  "code": "const headingBlock = document.createElement(\"div\");\nheadingBlock.classList.add(\"daggerheart-heading\");\n\nconst typeBlock = document.createElement(\"div\");\ntypeBlock.classList.add(\"card-type\");\ntypeBlock.classList.add(monster.domain);\n\nconst typeText = document.createElement(\"span\");\ntypeText.innerText = monster.type;\ntypeBlock.append(typeText)\n\nheadingBlock.append(typeBlock);\n\nreturn headingBlock;"
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "group",
+              "id": "098a5a785abb",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "3b8bb868c818",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 1,
+                  "fallback": "Card Name"
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "group",
+              "id": "cbbaeab91a3b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "281afa3a39d9",
+                  "properties": [
+                    "text"
+                  ],
+                  "fallback": "-"
+                }
+              ]
+            }
+          ],
+          "cls": "daggerheart-card"
+        }
+      ],
+      "id": "daggerheart-card",
+      "name": "Daggerheart Card",
+      "edited": true
+    }
+  },
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "9beb08f99a5a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "89998949fb0b",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "-",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "982ba9097959",
+              "properties": [
+                "tier"
+              ],
+              "fallback": "",
+              "callback": "return monster.tier + \" \" + monster.type;",
+              "conditioned": true,
+              "display": "Tier"
+            },
+            {
+              "type": "text",
+              "id": "a8196bebf98a",
+              "properties": [
+                "description"
+              ],
+              "text": "",
+              "fallback": "-",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "a8988bca599a",
+              "properties": [
+                "impulses"
+              ],
+              "fallback": "-",
+              "display": "Impulses:",
+              "conditioned": true
+            },
+            {
+              "type": "group",
+              "id": "c90a4a79fb0b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "ab385a3b1869",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "781b3bdbd86b",
+                      "properties": [
+                        "difficulty"
+                      ],
+                      "fallback": "-",
+                      "display": "Difficulty:",
+                      "conditioned": true
+                    }
+                  ]
+                },
+                {
+                  "type": "inline",
+                  "id": "694abb2acaf9",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "58a80a396ba9",
+                      "properties": [
+                        "potential_adversaries"
+                      ],
+                      "fallback": "-",
+                      "display": "Potential Adversaries:",
+                      "conditioned": true
+                    }
+                  ],
+                  "hasRule": true
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "traits",
+              "id": "eb590bb8cb9b",
+              "properties": [
+                "features"
+              ],
+              "fallback": "-",
+              "heading": "Features",
+              "conditioned": true,
+              "headingProp": false,
+              "callback": "return property.text;"
+            }
+          ],
+          "heading": "",
+          "cls": "daggerheart-environment"
+        }
+      ],
+      "name": "Daggerheart Environment v2",
+      "id": "6ac91afbcae9"
+    }
+  ],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": true,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 2
+  },
+  "paths": [
+    "5-Mechanics/CLI/5E/compendium/bestiary",
+    "4. Bestiary",
+    "2-Worlds/The World of Aedryl/NPCs",
+    "2-Worlds/The Converging Realms/NPCs",
+    "5-Mechanics/CLI/DaggerHeart/adversaries"
+  ],
+  "autoParse": true,
+  "disableSRD": true,
+  "tryToRenderLinks": false,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

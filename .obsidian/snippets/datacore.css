@@ -1,0 +1,127 @@
+:root{
+  /* Color variables */
+  --background-main-color: #0f0f0f; /* off-black */
+  --border-color: #ff4d4d; /* red */
+  --input-text-color: #ffffff; /* white for inputs */
+  --text-main-color: #ffffff; /* white */
+  --text-muted-color: #9a9a9a; /* grey */
+  --text-accent-color: #ff4d4d; /* red */
+  --border-radius-small: 3px;
+}
+
+/* Generic component containers */
+.dcc-input-text,
+.dcc-number-input,
+.dcc-dropdown,
+.dcc-multi-select,
+.dcc-action-button,
+.dcc-table-form,
+.dcc-multi-file-table,
+.dcc-info-box {
+  background: var(--background-main-color);
+  color: var(--input-text-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-small);
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.dcc-action-button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dcc-table-form table,
+.dcc-multi-file-table table,
+.dcc-info-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dcc-table-form th,
+.dcc-multi-file-table th,
+.dcc-info-box th {
+  text-align: left;
+  padding: 6px 8px;
+  color: var(--text-muted-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.dcc-table-form td,
+.dcc-multi-file-table td,
+.dcc-info-box td {
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255,77,77,0.06);
+  color: var(--text-main-color);
+}
+
+/* Specific tweaks moved from inline styles */
+.dcc-input-text { display: block; }
+.dcc-input-text > span { margin-left: 8px; }
+
+.dcc-number-input { display: block; }
+.dcc-number-input > span { margin-left: 8px; }
+
+.dcc-dropdown { display: block; }
+.dcc-dropdown > span { margin-left: 8px; }
+
+.dcc-field-file-table-cell { white-space: nowrap; }
+
+.dcc-list-suggester-base { 
+    display:flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dcc-list-suggester-base-item { display:inline-flex; align-items:center; padding:2px 6px; border:1px solid var(--border-color); border-radius:var(--border-radius-small); background:var(--background-main-color); }
+.dcc-list-suggester-base-item > span { 
+    margin-right:6px; 
+    border: var(--mb-border-width) solid var(--background-modifier-border);
+    border-radius: var(--mb-border-radius);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--size-4-2);
+    padding-inline: var(--size-4-2);
+    padding-block: var(--size-4-1);
+    font-size: var(--font-ui-small);
+    vertical-align: bottom;
+    user-select: text;
+}
+.dcc-list-suggester-base-add { display:inline-block; }
+.dcc-list-suggester-base-remove { background:transparent; border:none; cursor:pointer; }
+
+.dcc-list-suggester-add { display:flex; gap:8px; align-items:center; }
+.dcc-list-suggester-add-create { cursor:pointer; }
+
+.dcc-file-picker { position: relative; display: inline-block; }
+.dcc-file-picker-selected { position: relative; }
+.dcc-file-picker-remove { position: absolute; top: -6px; right: -6px; background:#fff; border:1px solid var(--border-color); border-radius:50%; width:20px; height:20px; line-height:16px; text-align:center; cursor:pointer }
+.dcc-file-picker-button { margin-left:8px; }
+.dcc-file-picker-placeholder { color: var(--text-muted-color); }
+.dcc-file-picker-image { max-width: 200px; display: block; }
+
+/* Field-based selectors (generic styling for generated classes) */
+[class*="field-"][class*="-table-header"] {
+  /* header for a specific field */
+  font-weight: 600;
+}
+
+[class*="field-"][class*="-table-cell"] {
+  /* cell for a specific field */
+  padding: 6px 8px;
+  color: var(--text-main-color);
+}
+
+[class*="field-"][class*="-row-label"] {
+  color: var(--text-muted-color);
+  width: 30%;
+}
+
+[class*="field-"][class*="-row-value"] {
+  color: var(--text-main-color);
+}
+
+/* Utility */
+.dcc-rounded {
+  border-radius: var(--border-radius-small);
+}
