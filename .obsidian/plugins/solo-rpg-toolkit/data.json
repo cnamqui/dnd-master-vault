@@ -1,7 +1,7 @@
 {
   "defaultView": "dice",
   "customTableRoot": "Tables",
-  "customDeckRoot": "zz-nexus/Decks",
+  "customDeckRoot": "04-Compendium/Decks",
   "disableDefaultWords": false,
   "deckJokers": false,
   "deckFlip": true,
@@ -17,6 +17,7 @@
   "standardOracleBias": false,
   "standardOracleEvents": false,
   "oracleLanguage": "en",
+  "templatePrefix": "template",
   "wordTab": "Prompts",
   "oracleTab": "fu",
   "deckTab": "LMD Creature A",
