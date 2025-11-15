@@ -1052,8 +1052,7 @@
   },
   "paths": [
     "04-Compendium/CLI/5E/compendium/bestiary",
-    "03-Campaigns",
-    "04-Compendium/CLI/DaggerHeart/adversaries"
+    "03-Campaigns"
   ],
   "autoParse": true,
   "disableSRD": true,
