@@ -9,8 +9,8 @@
     const tls = players.map(p => p.timeline)
     const names = players.map(p => p.file.name) 
     const selectedPlayers = await tp.system.multi_suggester(  names, tls, false, "Which template do you want to use?") 
-    const sdate = await tp.system.prompt("Start Date?", '04-1312-01-11');
-	const edate = await tp.system.prompt("End Date?", '04-1312-02-11'); 
+    const sdate = await tp.system.prompt("Start Date?", '04-2412-01-11');
+	const edate = await tp.system.prompt("End Date?", '04-2412-02-11'); 
 	const timelines = `${campaignAbbr.toLowerCase()}, ${selectedPlayers.join(', ')}`  
 	const hasTitle = !tp.file.title.startsWith("NewEvent");  
 	let title;  

@@ -33,7 +33,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "zz-nexus/Templates/ExtractContentTemplate.md"
+    "zz-nexus/Templates/07-KeyBinds/ExtractContentTemplate.md"
   ],
   "startup_templates": [
     ""

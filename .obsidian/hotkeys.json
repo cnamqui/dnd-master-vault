@@ -42,5 +42,14 @@
       ],
       "key": " "
     }
+  ],
+  "templater-obsidian:create-zz-nexus/Templates/07-KeyBinds/ExtractContentTemplate.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": " "
+    }
   ]
 }
