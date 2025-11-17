@@ -3,7 +3,8 @@ Vitality: Alive
 Race:
   - "[[04-Compendium/CLI/5E/compendium/bestiary/dragon/young-brass-dragon-xmm.md|Young Brass Dragon]]"
 defaultImage:
-defaultRacePics: []
+defaultRacePics:
+  - 04-Compendium/CLI/5E/compendium/bestiary/dragon/img/brass-dragon.webp
 ---
 
 > [!infobox|clear clean wide1]+
