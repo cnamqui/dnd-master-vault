@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "HomeTown": "text"
+    "HomeTown": "text",
+    "fc-date": "text"
   }
 }
