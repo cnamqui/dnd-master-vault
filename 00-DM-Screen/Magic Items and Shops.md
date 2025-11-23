@@ -61,3 +61,6 @@ const table = await app.plugins.plugins["obsidian-dice-roller"].api.getArrayRoll
  
 dv.el('div', table)  
 ```
+
+
+`dice: 8d10 * 100`

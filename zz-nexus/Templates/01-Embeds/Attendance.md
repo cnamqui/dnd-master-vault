@@ -7,6 +7,8 @@ attendance:
   Orik: true
   Mr Wick: true
   Jackson Liefsson: false
+  Ambrosius: false
+  BF Stoutwallet: false
 class:
   - "[[04-Compendium/CLI/5E/compendium/classes/wizard-xphb.md]]"
 ---

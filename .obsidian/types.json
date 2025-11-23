@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "HomeTown": "text",
-    "fc-date": "text"
+    "fc-date": "text",
+    "level": "number"
   }
 }

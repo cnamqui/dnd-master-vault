@@ -25,7 +25,7 @@ Place it in a quote callout like this:
 > [!quote| author mark] Prompt: insert the name here
 > Prompt: Insert the quote here
 
-Prompt: Expand upon the given lore.  Add 2-5 sentences at the end to expand further. 
+Prompt: Expand upon the given lore. correct grammar,  Add 2-5 sentences at the end to expand further. 
 
  
 

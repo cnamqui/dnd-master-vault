@@ -2,6 +2,7 @@
 campaignTag: Campaign/CGRA
 obsidianUIMode: preview
 ---
+%%
 > [!blank| no-t tbl-u-2] 
 > ```meta-bind-js-view
 > {campaignTag} as campaignTag
@@ -49,4 +50,33 @@ obsidianUIMode: preview
 > const md =  engine.markdown.create(t) 
 > return md
 > ```
+%%
+```base
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("Campaign/CGRA")
+        - file.hasTag("Category/Player")
+        - Status != "Retired"
+    order:
+      - file.name
+      - Player
+      - level
+      - Class
+      - Subclass
+      - Status
+      - pasperc
+      - ac
+      - milestones
+    sort:
+      - property: milestones
+        direction: ASC
+      - property: level
+        direction: ASC
+    columnSize:
+      note.Player: 123
+      note.milestones: 202
 
+```

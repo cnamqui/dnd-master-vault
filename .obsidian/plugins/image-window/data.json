@@ -6,10 +6,10 @@
     "Second Window": {
       "hosts": {
         "Drizzly": {
-          "x": 559,
-          "y": 53,
-          "width": 562,
-          "height": 968,
+          "x": 698,
+          "y": 66,
+          "width": 704,
+          "height": 1211,
           "fullscreen": false,
           "maximized": false
         }

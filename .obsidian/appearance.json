@@ -28,7 +28,8 @@
     "base64fonts",
     "datacore",
     "hpphumblescratch",
-    "timeline"
+    "timeline",
+    "print"
   ],
   "accentColor": "#860909"
 }

@@ -9,7 +9,7 @@ const {
 <%* 
 	const { campaignFolder, campaignName, campaignTag } = (await tp.user.campaignConfig(tp, app))
 -%>
-<% await tp.file.move(`${campaignFolder}/04-Codex/01-NPC/` + tp.file.title) %>
+<% await tp.file.move(`${campaignFolder}/04-Codex/01-NPCs/` + tp.file.title) %>
 <%* 
 const hasTitle = !tp.file.title.startsWith("NewNPC") && !tp.file.title.startsWith("Untitled");
 let title;
